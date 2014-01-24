@@ -194,6 +194,10 @@ Options are prefixed with a double-dash (``--``):
 - ``--concise`` will create a more concise output of the test suite.
 - ``--no-colors`` will create an output without (beautiful) colors from casperjs.
 
+.. versionadded:: 1.1
+
+- ``--engine=slimerjs`` will use slimerjs instead of phantomjs 
+
 Sample custom command:
 
 .. code-block:: text
